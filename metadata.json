@@ -1,0 +1,11 @@
+{
+    "databases": {
+       "unabanda": {
+           "queries": {
+               "last_modified": {
+                   "sql": "select at_last_modified from event order by at_last_modified limit 1"
+               }
+           }
+       }
+    }
+}

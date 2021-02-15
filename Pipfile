@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+airtable-export = {editable = true, git = "https://github.com/jazzido/airtable-export"}
+sqlite-utils = "*"
+datasette = "*"
+
+[requires]
+python_version = "3.7"
